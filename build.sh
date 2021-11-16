@@ -52,7 +52,7 @@ elif [[ "$action" == Release* ]];then
   npm run build
   node ./build.js
 
-  cd release/
+  cd dist/
   ls
   if [ "$action" == "Release_npm" ];then
       echo  "Releasing npm..."
