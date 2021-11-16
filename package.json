@@ -1,9 +1,13 @@
 {
   "name": "djcloud",
-  "version": "0.1.4-1",
+  "version": "0.1.4-2",
   "private": false,
   "files": [
-    "dist/*.*"
+    "dist/*.ico",
+    "dist/*.js",
+    "dist/*.html",
+    "dist/*.css",
+    "dist/*.png"
   ],
   "scripts": {
     "serve": "vue-cli-service serve",
