@@ -24,9 +24,7 @@ if [ "$action" == "Build" ];then
 
   npm run build
   node ./build.js
-  cd dist/
   npm publish
-  cd ../
   newVersion=$(npm version prerelease --no-git-tag-version)
   npm version
   echo "$currentVersion is built, next version $newVersion"
