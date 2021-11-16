@@ -3,7 +3,7 @@
   "version": "0.1.4-3",
   "private": false,
   "files": [
-    "dist"
+    "./dist/*.html"
   ],
   "scripts": {
     "serve": "vue-cli-service serve",
